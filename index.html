@@ -17,6 +17,7 @@
     <meta name="twitter:image" content="./images/og-image.jpg">
     <meta name="twitter:description" content="인디고에서 새로운 레포츠를 즐겨보세요">
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -25,15 +26,153 @@
     <title>INDIGO</title>
     <style>
 
+
+        /* 기본스타일 */
+       
+        /* 768px 이상 스타일 */
+        @media (min-width:768px){
+
+        }
+        /* 1200px 이상 스타일 */
+        @media (min-width:1200px){
+        }
+      
     </style>
 </head>
 <body>
+    <section class="wrap">
+        <header class="header">
+            <div class="container">
+                <h1 class="main-title">
+                    <strong>
+                        <a href="./index.html">INDIGO</a>
+                    </strong>
+                </h1>
+                <div class="btn-nav">
+                    <span>라인</span>
+                    <span>라인</span>
+                    <span>라인</span>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./we-are.html">WE ARE</a></li>
+                        <li><a href="./work.html">WORK</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                        <li><a href="./contact/html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="section main-banner">
+            <div class="container">
+                <h2 class="sec-title">main banner</h2>
+                <div class="swiper">
+                <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="./images/slide01.jpg" alt="레포츠1 스케이트보드"></a>
+                            </div>   
+                            <div class="swiper-slide">
+                                <a href="#"><img src="./images/slide02.jpg" alt="레포츠2 마라톤"></a>
+                            </div>   
+                            <div class="swiper-slide">
+                                <a href="#"><img src="./images/slide03.jpg" alt="레포츠3 격투기"></a>
+                            </div>   
+                            <div class="swiper-slide">
+                                <a href="#"><img src="./images/slide04.jpg" alt="레포츠4 복싱"></a>
+                            </div>   
+                            <div class="swiper-slide">
+                                <a href="#"><img src="./images/slide05.jpg" alt="레포츠5 레이싱"></a>
+                            </div>   
+                        </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section we-are">
+            <div class="container">
+                <h2 class="sec-title">WE ARE</h2>
+                <p class="sec-txt">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quas corporis aliquid, quo sint vero minus ipsum debitis, tempora, et assumenda? Fugiat, aliquam. Repellendus facere obcaecati consequuntur similique rem!
+                    Deleniti expedita nisi mollitia eius aperiam doloribus reiciendis sed laboriosam. Debitis, nobis libero sit cumque, quibusdam esse sed amet vero dicta id rem obcaecati nostrum! Pariatur ratione dolor voluptatum ipsam.
+                </p>
+                <ul class="sec-contents">
+                    <li>
+                        <div class="img-box">
+                            <a href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <h3 class="sec-sub-tilte"><a href="#">HOME</a></h3>
+                        <p class="sec-sub-txt"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus suscipit, consequatur molestias porro illo rem. Eum vel fugiat tenetur magni, laboriosam non placeat ullam, odit doloribus inventore dolore soluta!</a></p>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="#">
+                                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <h3 class="sec-sub-tilte"><a href="#">WE ARE</a></h3>
+                        <p class="sec-sub-txt"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus suscipit, consequatur molestias porro illo rem. Eum vel fugiat tenetur magni, laboriosam non placeat ullam, odit doloribus inventore dolore soluta!</a></p>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="#">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <h3 class="sec-sub-tilte"><a href="#">WORK</a></h3>
+                        <p class="sec-sub-txt"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus suscipit, consequatur molestias porro illo rem. Eum vel fugiat tenetur magni, laboriosam non placeat ullam, odit doloribus inventore dolore soluta!</a></p>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="#">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <h3 class="sec-sub-tilte"><a href="#">BLOG</a></h3>
+                        <p class="sec-sub-txt"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus suscipit, consequatur molestias porro illo rem. Eum vel fugiat tenetur magni, laboriosam non placeat ullam, odit doloribus inventore dolore soluta!</a></p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="section work">
+            <div class="container"></div>
+        </section>
+        <section class="section blog">
+            <div class="container"></div>
+        </section>
+        <section class="section contact">
+            <div class="container"></div>
+        </section>
+        <section class="section map">
+            <div class="container"></div>
+        </section>
+        <footer class="footer">
+            <div class="container"></div>
+        </footer>
+    </section>
 
 
-
-    
     <script>
-
+        $(function(){
+            // main slider
+            const swiper =new Swiper('.swiper',{
+                direction:'horizontal',
+                loop:true,
+                pagination:{
+                    el:'.swiper-pagination',
+                    type:'bullets',
+                },
+            });
+        })
     </script>
 </body>
 </html>
